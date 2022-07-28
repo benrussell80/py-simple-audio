@@ -38,8 +38,7 @@ simpleaudio_c_ext = Extension(
 VERSION = "1.0.4"
 
 # Get the long description from the relevant file
-with open(path.join(path.abspath(path.dirname(__file__)), 'README.rst'),
-          encoding='utf-8') as f:
+with open(path.join(path.abspath(path.dirname(__file__)), 'README.rst'), 'utf-8') as f:
     long_description = f.read()
 
 setup(
